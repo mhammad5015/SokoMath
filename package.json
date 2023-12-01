@@ -1,0 +1,22 @@
+{
+  "name": "sokomath",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/main.js",
+    "dev": "concurrently \"npx tsc --watch\" \"node -q dist/index.js\""
+  },
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.9",
+    "@types/readline-sync": "^1.4.6",
+    "concurrently": "^7.5.0",
+    "nodemon": "^2.0.20",
+    "typescript": "^4.9.3"
+  }
+}
